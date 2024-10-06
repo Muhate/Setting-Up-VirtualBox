@@ -28,8 +28,16 @@ After successfully downloading the files, we will see them on the Download folde
 We'll start by the VirtualBox-version-Win installation, clicking twice and following the steps shown in the image below.
 
 <p align="center">
-<img width="500" alt="Installation steps" src="https://github.com/user-attachments/assets/5f338569-26cd-4300-9656-93d8eaa29763">
+<img width="500" alt="VirtualBox installation steps" src="https://github.com/user-attachments/assets/5f338569-26cd-4300-9656-93d8eaa29763">
 </p>
+
+After successfully installing VirtualBox, it's now time to install the Oracle_VirtualBox_Extension_Pack-version, by double clicking it and following the steps shown below, in the image.
+
+<p align="center">
+<img width="600" alt="Oracle_VirtualBox_Extension_Pack installation steps" src="https://github.com/user-attachments/assets/f7a5f265-dfdf-4dd3-9ef1-b33c99750d98">
+</p>
+
+
 
 For setting up VirtualBox, refer to <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
 <br>
