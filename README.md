@@ -15,7 +15,10 @@ This project aims to demonstrate how to install Oracle VirtualBox on Windows mac
 - **Windows 11**: Used as a monitored system;
 
 ### 4. Installation Steps
-First of all, we need to download the executable file of Oracle VirtualBox, so we go <a href="https://www.virtualbox.org/wiki/Downloads">here</a> and 
+First of all, we need to download the executable file of Oracle VirtualBox, so we go <a href="https://www.virtualbox.org/wiki/Downloads">here</a> and we choose the file according to our operating system, her we will be choosing windows. We download the virtualbox executable itself and the VirtualBox Extension Pack, as shown in the image below.
+
+![image](https://github.com/user-attachments/assets/3926968f-b96a-4154-a676-5d24cf2b8e30)
+
 
 For setting up VirtualBox, refer to <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
 <br>
