@@ -45,7 +45,7 @@ In Virtualbox there are several types of networks, the most used being the bridg
 
 
 ### 5. **Conclusion**
-   - This project successfully demonstrated the installation of Oracle VirtualBox and it's Extension Pack. Then we briefly presented some types of the network in VirtualBox, by the end we learned how to create the NAT Network, that fit best to our labs, by alloeint the VMs to comunicate each other and also with the host machine. If any doubt raise up or you get some error following this guidance, please reach me out by the info down below.
+   - This project successfully demonstrated the installation of Oracle VirtualBox and its Extension Pack. Next, we briefly present some types of networks in VirtualBox, at the end we learn how to create the NAT Network, which best adapts to our labs, by allowing VMs to communicate with each other and also with the host machine. If any questions arise or you receive any errors while following this guidance, please contact me using the information below.
 
 ### 6. **Contact Information**
    - **Name**: Rogério Muhate
