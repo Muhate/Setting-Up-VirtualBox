@@ -37,73 +37,12 @@ After successfully installing VirtualBox, it's now time to install the Oracle_Vi
 <img width="600" alt="Oracle_VirtualBox_Extension_Pack installation steps" src="https://github.com/user-attachments/assets/5f72b2d7-1ac1-45e3-8342-3d80b478476e">
 </p>
 
+In Virtualbox there are several types of networks, the most used being the bridged adapter and the Nat Network. In our case we will use the Nat Network type because in the Bridged Adapter type it would be necessary to change the machine's network settings each time we use a different network. The NAT Network must be created in VirtualBox, for that we open the VirtualBox and follow the steps in the image below.
 
+<p align="center">
+<img width="500" alt="NAT Network creation" src="https://github.com/user-attachments/assets/4c712f19-c8ff-46d8-93b5-7ba6fe62939c">
+</p>
 
-For setting up VirtualBox, refer to <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
-<br>
-<br>
-   
-   - **4.2: Setting Up Windows 2022 on VirtualBox**
-
-For setting up Windows 2022 on VirtualBox, refer to <a href="https://github.com/Muhate/Install-Windows-on-VirtualBox">this guide</a>
-<br>
-<br>
-
-   - **4.3: Setting Up Ubuntu Server 24.04.LTS on VirtualBox**
-
-For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com/Muhate/Install-Ubuntu-on-VirtualBox">this guide</a>
-<br>
-<br>
-
-   - **4.3: Setting Up Wazuh Manager on Ubuntu Server 24.04 LTS**
-
-     - Update the package manager:
-       ```
-       sudo apt update && sudo apt upgrade -y && sudo reboot
-       ```
-     - Install Wazuh Manager:
-       ```
-       curl -s https://packages.wazuh.com/4.x/ubuntu/KEY.gpg | sudo apt-key add -
-       echo "deb http://packages.wazuh.com/4.x/ubuntu/ focal main" | sudo tee /etc/apt/sources.list.d/wazuh.list
-       sudo apt-get update
-       sudo apt-get install wazuh-manager
-       ```
-
-   - **Step 3: Configuring Wazuh**
-     - Modify the configuration file (`/var/ossec/etc/ossec.conf`) to set up agents and alerts.
-     - Restart Wazuh Manager:
-       ```bash
-       sudo systemctl restart wazuh-manager
-       ```
-
-   - **Step 4: Installing Elasticsearch and Kibana**
-     - Follow similar steps to install and configure Elasticsearch and Kibana.
-
-### 5. **Generating Test Data**
-   - **Kali Linux Testing**: 
-     - Execute various tests to generate logs (e.g., using Metasploit, Nmap).
-     - Sample command to generate logs:
-       ```bash
-       nmap -sS -p 1-65535 <target_ip>
-       ```
-
-### 6. **Results and Analysis**
-   - **Data Visualization**: 
-     - Showcase screenshots of dashboards in Kibana that display security events, logs, and alerts.
-   - **Alerts Configuration**:
-     - Explain how alerts were configured in Wazuh and provide examples of alerts generated during testing.
-
-### 7. **Challenges and Solutions**
-   - **Challenge**: Difficulty in integrating Wazuh with Elastic Stack.
-     - **Solution**: Consulted official documentation and community forums, which helped resolve configuration issues.
-
-### 8. **Lessons Learned**
-   - Gained hands-on experience in setting up a complete SIEM solution.
-   - Improved understanding of log analysis and incident response workflows.
-
-### 9. **Future Improvements**
-   - Plan to integrate additional data sources (e.g., firewalls, web servers).
-   - Explore automated incident response mechanisms using Wazuh.
 
 ### 10. **Conclusion**
    - This project successfully demonstrated the deployment of Wazuh in a lab environment, providing valuable insights into security monitoring and log analysis.
