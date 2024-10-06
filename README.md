@@ -44,15 +44,10 @@ In Virtualbox there are several types of networks, the most used being the bridg
 </p>
 
 
-### 10. **Conclusion**
-   - This project successfully demonstrated the deployment of Wazuh in a lab environment, providing valuable insights into security monitoring and log analysis.
+### 5. **Conclusion**
+   - This project successfully demonstrated the installation of Oracle VirtualBox and it's Extension Pack. Then we briefly presented some types of the network in VirtualBox, by the end we learned how to create the NAT Network, that fit best to our labs, by alloeint the VMs to comunicate each other and also with the host machine. If any doubt raise up or you get some error following this guidance, please reach me out by the info down below.
 
-### 11. **Links and References**
-   - [GitHub Repository](https://github.com/username/wazuh-lab)
-   - [Wazuh Official Documentation](https://wazuh.com/documentation/)
-   - [Elastic Stack Documentation](https://www.elastic.co/guide/en/elastic-stack/current/index.html)
-
-### 12. **Contact Information**
+### 6. **Contact Information**
    - **Name**: Rogério Muhate
    - **Email**: rbmuhate@gmail.com
    - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/rmuhate)
