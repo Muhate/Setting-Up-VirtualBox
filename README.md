@@ -21,16 +21,15 @@ First of all, we need to download the executable file of Oracle VirtualBox, so w
 
 After successfully downloading the files, we will see them on the Download folder as shown below.
 
+<p align="center">
 <img width="342" alt="image" src="https://github.com/user-attachments/assets/e3e4a01d-7945-436d-8a1c-c19a3cee6999">
-<br>
-<br>
+</p>
 
-We'll start by the VirtualBox-version-Win installation, as below.
+We'll start by the VirtualBox-version-Win installation, clicking twice and following the steps shown in the image below.
 
-
-<img width="382" alt="image" src="https://github.com/user-attachments/assets/5f338569-26cd-4300-9656-93d8eaa29763">
-
-
+<p align="center">
+<img width="500" alt="Installation steps" src="https://github.com/user-attachments/assets/5f338569-26cd-4300-9656-93d8eaa29763">
+</p>
 
 For setting up VirtualBox, refer to <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
 <br>
