@@ -38,6 +38,7 @@ After successfully installing VirtualBox, it's now time to install the Oracle_Vi
 </p>
 
 - **4.1. NAT Network creation**
+
 In Virtualbox there are several types of networks, the most used being the bridged adapter and the Nat Network. In our case we will use the Nat Network type because in the Bridged Adapter type it would be necessary to change the machine's network settings each time we use a different network. The NAT Network must be created in VirtualBox, for that we open the VirtualBox and follow the steps in the image below.
 
 <p align="center">
